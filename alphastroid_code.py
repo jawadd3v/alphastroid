@@ -65,7 +65,7 @@ def draw_ship(surface, position, angle):
     '''
     if ship_alive and (not invincible or int(pygame.time.get_ticks() /150) % 2 == 0): # Create glitchy flicker effect when invincible using modulo
         ship_font = pygame.font.Font(("assets/Comfortaa-Regular.ttf"), 30) # Importing Comfortaa Font
-        text = ship_font.render("A", True, (255, 255, 255)) # Render the ship as the letter "A"
+        text = ship_font.render("A", True, (200, 200, 200)) # Render the ship as the letter "A"
         rotated_text = pygame.transform.rotate(text, -angle) # Rotate the text counterclockwise
         text_rect = rotated_text.get_rect(center = position) # Draw the ship to the screen
         surface.blit(rotated_text, text_rect)
