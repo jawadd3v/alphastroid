@@ -26,7 +26,8 @@ python alphastroid_code.py
 - `alphastroid_code.py` – Main game code  
 - `redset-nebula.png` – Background image  
 - `Comfortaa-Regular.ttf` – Font used for game text  
-
+- `spacebarkey.png` - Image used for instructions
+- `wasdandarrowkeys.png` - Image used for instructions
 ---
 
 ## Credits
